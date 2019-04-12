@@ -1,9 +1,27 @@
-#  Local .terraform directories
+*.retry
+*.key
+*.cert
+*.crt
+*.pem
+*.swp
+*.pyc
+
+*.tfvars
+*.tfvars*
+
+# Local .terraform directories
 **/.terraform/*
 
 # .tfstate files
 *.tfstate
 *.tfstate.*
 
-# .tfvars files
-*.tfvars
+# Crash log files
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
